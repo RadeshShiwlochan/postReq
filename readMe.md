@@ -1,0 +1,1 @@
+This simple app just demonstrates how to read input from a form. This app uses ejs as a template engine with one of the views being a login page where a user can enter their first and last name in the text fields. When the submit button is clicked, the user's first and last name gets printed to the terminal. 

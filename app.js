@@ -6,9 +6,8 @@ var express = require('express'),
     ejs     = require('ejs'),
     app     = express();
 
-//app.engine('ejs', {defaultLayout: 'main'});
+
 app.use(body.urlencoded({extended: false}));
-//app.set('view engine', 'ejs');
 
 app.get('/', function(req, res) {
 	res.render('home.ejs');
